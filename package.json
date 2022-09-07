@@ -1,0 +1,32 @@
+{
+  "name": "lipikaar",
+  "version": "1.0.0",
+  "description": "A Platfor for writers",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-subdomain": "^1.0.5",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.16",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Essay",
+    "Story",
+    "Poem",
+    "Composition"
+  ],
+  "author": "Bhawani Shankar Bharti",
+  "license": "ISC"
+}
